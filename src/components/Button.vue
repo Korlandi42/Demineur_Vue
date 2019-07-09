@@ -12,3 +12,14 @@ export default {
   }
 }
 </script>
+
+<style>
+button {
+  text-transform: uppercase;
+  background: #f1f1f1;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border-bottom: solid 2px rgba(0,0,0,0.2);
+  font-size: 14px;
+}
+</style>

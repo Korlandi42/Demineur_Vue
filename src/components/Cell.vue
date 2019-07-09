@@ -1,6 +1,6 @@
 <template>
     <div id="cell" v-if="!hide" style="background-color: lightgreen;">
-        <img v-if="value === 0" src="bomb.png" height="25px" width="25px" style="margin-top: 3px"/>
+        <img v-if="value === 0" src="bomb.png" height="35px" width="35px" style="margin-top: 3px"/>
         <span v-else>{{value}}</span>
     </div>
     <div v-on:click="display(value)"  id="cell" v-else style="background-color: green;">
@@ -17,7 +17,7 @@ export default {
         this.hide = false
         if (value) {
             this.$store.commit('increment', value)
-            if (this.$store.state.score >= 5)
+            if (this.$store.state.score >= 45)
                 this.$store.commit('end', true)
         }
         else
@@ -37,10 +37,11 @@ export default {
 
 <style>
 #cell {
-    height: 33px;
-    width: 33px; 
+    height: 45px;
+    width: 45px; 
     margin: 8px;
-    line-height: 30px;
+    line-height: 45px;
     text-align: center;
+    font-size: 20px;
 }
 </style>

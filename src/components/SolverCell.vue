@@ -1,6 +1,6 @@
 <template>
     <div id="solvercell" style="background-color: pink;">
-        {{sum.sum + '/' + sum.bomb}} <img src="bomb.png" height="9px" width="8px" style="margin-left: -3px"/>
+        {{sum.sum + '/' + sum.bomb}} <img src="bomb.png" height="11px" width="11px" style="margin-left: -3px"/>
     </div>
 </template>
 
@@ -15,11 +15,11 @@ export default {
 
 <style>
 #solvercell {
-    height: 33px;
-    width: 33px; 
+    height: 45px;
+    width: 45px; 
     margin: 8px;
-    line-height: 30px;
+    line-height: 45px;
     text-align: center;
-    font-size: 11px;
+    font-size: 16px;
 }
 </style>
