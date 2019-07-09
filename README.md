@@ -1,3 +1,5 @@
+![alt text](https://github.com/Korlandi42/Demineur_Vue/blob/master/preview/preview.png?raw=true)
+
 # demineur
 
 ## Project setup
